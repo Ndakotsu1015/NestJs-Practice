@@ -30,16 +30,21 @@ Accept: application/json
 
 
 ###
-POST  http://localhost:3000/auth/signin
+POST  http://localhost:3000/auth/signup
 Content-Type: application/json
 Accept: application/json
 
 {
-    "email": "maliyu1015@gmail.com",
+    "email": "mdlo_ibb@yahoo.com",
     "password": "Maliyu1015"
 }
 
 ###
 GET  http://localhost:3000/auth/signout
+Content-Type: application/json
+Accept: application/json
+
+###
+GET  http://localhost:3000/users/dd16d85d-04a3-4f36-8c0e-517b8df66e36
 Content-Type: application/json
 Accept: application/json
