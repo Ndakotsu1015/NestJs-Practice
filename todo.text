@@ -1,0 +1,11 @@
+Course Structure
+
+1. Generate new nest project (done)
+2. clean the project ()
+3. create auth module with basic controller and service
+4. init prisma schema with modue and service
+5. connect prisma service to auth service
+6. work on auth service (implement jwt, dto with validation pipe,hashed password and more) 
+7. jwt strategey and guard and allow cookies
+8. create users module with controller and service
+9. wrap up and conclusions 

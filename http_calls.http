@@ -1,0 +1,45 @@
+
+POST  http://localhost:3000/api/v1/book
+Content-Type: application/json
+Accept: application/json
+
+{
+    "title": "My fifth book title",
+    "description": "My fifth book description"
+}
+
+###
+GET http://localhost:3000/api/v1/book/
+Content-Type: application/json
+Accept: application/json
+
+###
+DELETE  http://localhost:3000/api/v1/book/10
+Content-Type: application/json
+Accept: application/json
+
+###
+PUT   http://localhost:3000/api/v1/book/2
+Content-Type: application/json
+Accept: application/json
+
+{
+    "title": "My second book title updated",
+    "description": "My second book description updated"
+}
+
+
+###
+POST  http://localhost:3000/auth/signin
+Content-Type: application/json
+Accept: application/json
+
+{
+    "email": "maliyu1015@gmail.com",
+    "password": "Maliyu1015"
+}
+
+###
+GET  http://localhost:3000/auth/signout
+Content-Type: application/json
+Accept: application/json
