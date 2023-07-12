@@ -48,3 +48,37 @@ Accept: application/json
 GET  http://localhost:3000/users/dd16d85d-04a3-4f36-8c0e-517b8df66e36
 Content-Type: application/json
 Accept: application/json
+
+
+###
+POST  http://localhost:3000/products
+Content-Type: application/json
+Accept: application/json
+
+{
+    "title": "My Second Test",
+    "description": "My Second test description!",
+     "price": 99.76
+}
+
+### 
+GET  http://localhost:3000/products
+Content-Type: application/json
+Accept: application/json
+
+###
+PATCH   http://localhost:3000/products/0.240258719238982
+Content-Type: application/json
+Accept: application/json
+
+{
+    "title": "My Second Updated Test"
+
+    
+}
+
+###
+DELETE   http://localhost:3000/products/0.0029576704435729795
+Content-Type: application/json
+Accept: application/json
+    
